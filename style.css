@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(156, 225, 229);
+}
+.header{
+    border: rgb(8, 106, 134) 2px solid;
+    border-radius: 10px 0px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(243, 255, 252);
+    color: rgb(16, 107, 110);
+}
+.newNotesForm{
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+}
+#textTitle{
+    font-family:'Courier New', Courier, monospace;
+    padding: 7px;
+    border-radius: 7px 7px 0px 0px;
+    border-color: rgb(6, 77, 77);
+}
+#textArea{
+    padding: 7px;
+    border-radius: 0px 0px 10px 10px;
+    border-color: rgb(6, 77, 77);
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px;
+}
+.submitArea{
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+.btn{
+    margin: 1px;
+    padding: 4px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(6, 125, 139);
+    color: white;
+}
+.notesListSec{
+    border: 1px rgb(5, 114, 124) solid;
+    border-radius: 3px;
+    margin: 4px 6px;
+    padding: 5px;
+    background-color: rgb(4, 131, 134);
+    color: white;
+}
+.notesListTitle{
+    text-align: center;
+}
+
+.listItems{
+    border-radius: 2px;
+    background-color: aliceblue;
+    color: black;
+
+    margin: 5px;
+    padding: 5px;
+}

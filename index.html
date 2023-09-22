@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Paste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h4 id="userName">GokulJawa</h4>
+        <h5 id="emailID">gokuljawa@email.com</h5>
+    </header>
+
+    <main class="card">
+        <section class="newNotesSec">
+            <div>
+                <form id="form" action="" class="newNotesForm">
+                    <input type="text" placeholder="title" id="textTitle" name="textTitle">
+                    <textarea name="textArea" id="textArea" placeholder="write your notes " cols="30"
+                        rows="10"></textarea>
+                    <p class="options">
+                        <button onclick="selectText()" class="btn"><strong><abbr title="Bold">&nbsp;B&nbsp;</abbr></strong></button>
+                        <button class="btn"><em><abbr title="Underline">&nbsp;U&nbsp;</abbr></em></button>
+                        <button class="btn"><strike>&nbsp;ab&nbsp;</strike></button>
+                        <button class="btn" id="markID"><mark>&nbsp;Mark&nbsp;</mark></button>
+                        <button class="btn">&nbsp;List&nbsp;</button>
+                        <button class="btn">&nbsp;Color&nbsp;</button>
+                    </p>
+                    <p class="submitArea">
+                        <button class="btn" id="protectBtn">Protect & Save</button>
+                        <button type="submit" class="btn" id="saveBtn">Save</button>
+                        <button type="reset" class="btn">Clear</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+        <section class="notesListSec">
+            <div>
+                <p class="notesListTitle">Notes List</p>
+                <div id="notesListDiv"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
